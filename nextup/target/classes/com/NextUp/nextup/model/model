@@ -1,0 +1,12 @@
+@Entity
+public class Appointment {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    private String title;
+    private LocalDateTime dateTime;
+    private String status;
+
+    // getters and setters
+}
